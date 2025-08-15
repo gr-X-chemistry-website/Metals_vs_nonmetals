@@ -23,7 +23,6 @@ html {
 }
 
 body {
-  /* background-color: var(--base-color); */
   font-family: "Poppins", sans-serif;
 }
 
@@ -135,6 +134,7 @@ h1{
   opacity: 90%;
   padding: 3em;
   text-align: center;
+  
 }
 
 .Metals:hover{
@@ -158,6 +158,17 @@ h1{
 
 #nm{
   font-size: 15vw;
+}
+
+.anim{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.anim.is-visible{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #Videos{
@@ -186,16 +197,68 @@ h1{
 .frames{
   display: inline-block;
   border-radius: 5px;
-  max-width: 40vw;
+  min-width: 40vw;
   max-height: 40vh;
 }
 
 
 
 
+
+
+
+
+#Game{
+  background-image: url(../pics/Game_bg.png);
+  background-size: cover;
+  padding: 2em;
+  font-size: 20px;
+  text-decoration:wavy;
+  text-align: left;
+}
+
+#g_t{
+  padding-bottom: 1em;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+footer{
+  background-color: #14161d;
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+h3{
+  color: #ffffff;
+}
+
+#periodic-table{
+  background-color: #5c1752f0;
+  padding: 2em;
+  font-size: 20px;
+  text-decoration:wavy;
+  text-align: left;
+}
+
+#p_t{
+  padding-bottom: 1em;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
   width: 10px;
-  height: 10px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -211,6 +274,7 @@ h1{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 
 
 
