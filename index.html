@@ -15,8 +15,9 @@
           <li><a href="">NCERT</a></li>
           <li><a href="">Quizzes</a></li>
           <li><a href="">Videos</a></li>
-          <li><a href="./HTML/Differences.html">Differences</a></li>
           <li><a href="">Elements</a></li>
+          <li><a href="./HTML/Differences.html">Differences</a></li>
+          
         </ul>
       </nav>
       <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -33,7 +34,7 @@
       </div>
     </header>
     <section class="Metals" onclick="window.open('./HTML/Metals.html');">
-      <div class="Text">
+      <div class="anim">
           <div class="Metals-info">
               <h1 id="m">Metals</h1>
               <h2 id="click">Click here to know about metals</h2>
@@ -41,7 +42,7 @@
       </div>        
     </section>
     <section id="Videos" style="background-color: #ebfdff;">
-        <h2 id="Vid">Videos about metals</h2>
+        <h2 id="Vid" class="anim">Videos about metals</h2>
         <div class="VideoHolder">
           <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
           <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
@@ -52,14 +53,14 @@
         </div>
     </section>
     <section class="Non-Metals" onclick="window.open('./HTML/Non-Metals.html');">
-        <div class="Text">
+        <div class="anim">
             <h1 id="nm">Non-metals</h1>
             <h2 id="click">Click here to know about non-metals</h2>
         </div>
 
     </section>
     <section id="Videos" style="background-color: #ebfdff;">
-        <h2 id="Vid">Videos about non-metals</h2>
+        <h2 id="Vid" class="anim">Videos about non-metals</h2>
         <div class="VideoHolder">
           <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
           <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
@@ -70,8 +71,19 @@
         </div>
         
     </section>
+
+
+    <section id="periodic-table">   
+      <h2 id="p_t" class="anim">The Periodic Table of Elements</h2>
+      <img src="./pics/periodic_table.png" width="100%">
+    </section>
+
+    <section id="Game">
+      <h2 id="g_t" class="anim">Periodic Pursuit, a game on metals & non-metals (INCOMPLETE)</h2>
+    </section>
+
     <footer>
-        
+        <h3>All Rights Reserved.</h3>
     </footer>
   </body>
 </html>
