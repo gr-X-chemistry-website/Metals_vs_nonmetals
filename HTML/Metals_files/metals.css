@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #ffcd88, #ff7b00);
+  background-image: url("../../pics/line_art.png");
   color: #222;
   text-align: center;
   margin: 0;
