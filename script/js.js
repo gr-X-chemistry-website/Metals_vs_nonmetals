@@ -16,10 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, {
-      threshold: 0.5
+      threshold: 0.3
     });
 
     elementsToAnimate.forEach(element => {
       observer.observe(element);
     });
   });
+
