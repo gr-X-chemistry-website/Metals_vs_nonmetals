@@ -130,21 +130,28 @@ h1{
 }
 
 .Metals{
-  padding: 3em;
+  padding: 1em;
   text-align: center;
-  background-color: rgb(183 4 4 / 90%);
+  background-color: #221818e0;
 }
 
+#comparison{
+  background-color: rgb(125, 5, 95);
+  padding: 2em;
+  font-size: 20px;
+  text-decoration:wavy;
+  text-align: left;
+}
 
 .Non-Metals{
-  background-color: #024e85dc;
-  padding: 3em;
+  background-color: #162e0ce0;
+  padding: 2em;
   text-align: center;
 }
 
 
 #m{
-  font-size: 20vw;
+  font-size: 15vw;
 }
 
 #nm{
@@ -227,14 +234,6 @@ h3{
 
 #periodic-table{
   background: url("../pics/1.jpg");
-  padding: 2em;
-  font-size: 20px;
-  text-decoration:wavy;
-  text-align: left;
-}
-
-#comparison{
-  background-color: pink;
   padding: 2em;
   font-size: 20px;
   text-decoration:wavy;
