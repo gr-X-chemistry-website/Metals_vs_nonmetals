@@ -118,7 +118,6 @@ ul li a:hover{
 }
 
 body {
-  background-image: url(../../pics/line_art.png);
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif;
   text-align: center;
@@ -127,7 +126,7 @@ body {
 .title {
   font-size: 3em;
   margin: 100px 20px 40px;
-  color: #000000;
+  color: #FFF;
   text-align: center;
   font-size: 2em;
   margin-top: 20px;
@@ -288,3 +287,13 @@ td:nth-child(3) {
         padding: 10px;
       }
   } 
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
