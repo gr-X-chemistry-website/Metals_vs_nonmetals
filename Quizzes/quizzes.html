@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../script/styles.css" />
+        <title>Quizzes</title>
+        <script src="../script/js.js"></script>
+        <style>
+            h1{
+                color: black;
+                font-size: clamp(50px,10vw,100px); 
+            }
+            #qu{
+                display: block;
+                list-style-type: disc;
+            }
+            #qu li{
+                padding: 2px;
+            }
+            #qu li:hover{
+                transform: scale(1);
+            }
+            #wrap{
+                margin: 2em auto;
+                width: min(75em, 100%);
+                padding: min(2em, 15%);
+                border-radius: 1em;
+                background-color: rgb(243, 158, 200);
+            }
+            .questions{
+                padding-top: 10px;
+            }
+            body{
+                background-color: blueviolet;
+            }
+            .answer{
+                background-color: black; 
+                color: transparent; 
+                margin-top: 10px; 
+                user-select: none;
+                transition: background-color 0.3s ease, color 0.3s ease; 
+            }
+
+            .answer:hover,.answer:focus {
+                background-color: transparent; 
+                color: inherit; 
+            }
+            p{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="../pics/logo.png" alt="logo" onclick="window.open('./../index.html');">
+            <nav>
+                <ul>
+                    <li><a href="../NCERT/NCERT.html">NCERT</a></li>
+                    <li><a href="">Quizzes</a></li>
+                    <li><a href="../Differences/Differences.html">Differences</a></li>
+                    <li><a href="../Elements/list.html">Elements</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="../NCERT/NCERT.html">NCERT</a></li>
+                    <li><a href="">Quizzes</a></li>
+                    <li><a href="../Differences/Differences.html">Differences</a></li>
+                    <li><a href="../Elements/list.html">Elements</a></li>
+                </ul>
+            </div>
+        </header>
+        <section id="wrap">
+            <h1>Quizzes!</h1>
+            <p>(Easy)</p>
+            <div class="questions">
+                <h2>1.Metals are electro________ and nonmetals are electro________ in nature?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Electropositive | Electronegative</h2>
+            </div>
+            <div class="questions">
+                <h2>2.Property of metals to be beaten into thin sheets</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Malleability</h2>
+            </div>
+            <div class="questions">
+                <h2>3.This is a lustrous non-metal</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Iodine</h2>
+            </div>
+            <div class="questions">
+                <h2>4.A group of metals in the periodic table which is very soft</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Alkali metals</h2>
+            </div>
+            <div class="questions">
+                <h2>5.Metal + Oxygen ---> ?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Metal oxide</h2>
+            </div>
+            <div class="questions">
+                <h2>6.Metal oxide + Water ---></h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Base</h2>
+            </div>
+            <div class="questions">
+                <h2>7.Name 2 Amphoteric oxides</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Aluminium oxide and Zinc oxide</h2>
+            </div>
+            <div class="questions">
+                <h2>8.A process of making aluminium resistant to corrosion</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Anodising</h2>
+            </div>
+            <div class="questions">
+                <h2>9.Metal + Water ---></h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Metal oxide + Hydrogen</h2>
+            </div>
+            <div class="questions">
+                <h2>10.Metal + Dil. Acids ---></h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Some metals (like K,Na,Ca,Mg etc which are above hydrogen in the reactivity series) form Salt and Water. Others (like Au,Ag,Hg,Cu) do not react as their reactivity is low.</h2>
+            </div>
+            <div class="questions">
+                <h2>11.Metal A + Salt solution of Metal B ---></h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Salt solution of Metal A + Metal B (only is reactivity of A > reactivity of B)</h2>
+            </div>
+            <div class="questions">
+                <h2>12.Why is potassium iodide a powder?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Potassium iodide KI is an ionic compound i.e., they are brittle. Due to its brittleness, they turn into a powder.</h2>
+            </div>
+            <div class="questions">
+                <h2>13.Name the ore: HgS, Cu<sub>2</sub>S</h2>
+            </div>
+            <div class="answer">
+            <h2>Answer: Cinnabar | Copper glance</h2>
+            </div>
+            <div class="questions">
+                <h2>14.Process of heating a ore in the limited presence of oxygen.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Calcination</h2>
+            </div>
+            <div class="questions">
+                <h2>15.Process of purifying a metal.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Refining</h2>
+            </div>
+            <p>(Hard)</p>
+            <div class="questions">
+                <h2>1.In electrolysis of NaCl, why is molten NaCl used for extracting sodium and not NaCl solution?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: This is because the electrolysis of NaCl solution yields hydrogen gas, chlorine gas and NaOH. Sodium is obtained only when fused NaCl is electrolysed.</h2>
+            </div>
+            <div class="questions">
+                <h2>2.Iron does not rust when stored along with a drying agent. Explain.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: A drying agent is a hygroscopic chemical substance that absorbs and retains water or other moisture from its surroundings. This means that iron will not be exposed to water, which therefore prevents rusting.</h2>
+            </div>
+            <div class="questions">
+                <h2>3.Explain why the iron pillar near Qutub Minar does not rust.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: The iron used to forge the pillar has a significantly high concentration of phosphorus, which forms a protective layer of iron hydrogen phosphate hydrate, acting as a barrier against the atmosphere's oxygen and moisture.</h2>
+            </div>
+            <div class="questions">
+                <h2>4.Why is it difficult to store nitric acid in metal containers, but not in glass containers?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Nitric acid is a strong oxidising agent. If stored in metals it will react to form salt and nitrogen dioxide. Glass does not react with nitric acid and hence, nitric acid is stored in glass.</h2>
+            </div>
+            <div class="questions">
+                <h2>5. A reddish-brown metal “X” does not react with dilute acids but reacts with oxygen on heating. Identify X.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: X - Copper</h2>
+            </div>
+            <div class="questions">
+                <h2>6.Dry caustic soda cannot conduct electricity but its molten/solution form can conduct electricity. Justify.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Dry caustic soda, a solid ionic compound NaOH, does not conduct electricity because its sodium ions Na<sup>+</sup> and hydroxide ions OH<sup>-</sup> are held rigidly in place by strong electrostatic forces, preventing free movement. However, in its molten or dissolved (aqueous) form, the crystal lattice breaks down, and the ions become free to move. These mobile ions act as charge carriers, enabling the conduction of electricity.</h2>
+            </div>
+            <div class="questions">
+                <h2>7.Why do metals like sodium and potassium need to be stored in kerosene, while zinc or copper can be safely kept in air? Explain with reactions.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Sodium and potassium react violently with air (oxygen) and especially with moisture — they oxidise and/or react with water producing hydroxides and hydrogen gas (which can ignite). Example: 2Na + 2H<sub>2</sub>O ---> 2NaOH + H<sub>2</sub></h2>
+            </div>
+            <div class="questions">
+                <h2>8.Aluminium is highly reactive, yet it is used to make kitchen utensils and food storage containers. Justify.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Aluminium reacts readily but immediately forms a thin, layer of aluminium oxide (Al₂O₃) on exposure to air. This oxide layer is tightly bound and prevents further reaction. That protective oxide layer prevents corrosion and makes aluminium suitable for utensils.</h2>
+            </div>
+            <div class="questions">
+                <h2>9.Why do metals generally form cations and non-metals form anions?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Metals have low ionisation energies (few valence electrons, weak hold by nucleus) so they lose electrons easily to form positive ions (cations). Non-metals have high electronegativity and higher ionisation energies and tend to gain electrons to complete octets, forming negative ions (anions).</h2>
+            </div>
+            <div class="questions">
+                <h2>10.Why does aluminium not corrode further after forming its oxide layer, but iron continues to rust?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Aluminium oxide (Al₂O₃) forms an adherent, compact, impermeable layer that sticks tightly to the metal and prevents oxygen/water from reaching underlying metal. Iron oxide (rust) is porous and flaky, so it does not protect the underlying metal — it allows continued ingress of oxygen and water and so corrosion continues.</h2>
+            </div>
+            <div class="questions">
+                <h2>11.Why does iron rust in the presence of both air and moisture but not in dry air or distilled water alone?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Rusting requires both oxygen and water(electrolyte). Moisture provides an ionic medium for electron transfer; oxygen acts as the oxidising agent. In dry air, insufficient electrolyte exists for the electrochemical corrosion process. In pure distilled water conductivity is low, so corrosion is slow; presence of dissolved salts or acids speeds rusting.</h2>
+            </div><div class="questions">
+                <h2>12.Why is calcium hydroxide solution (lime water) used to test for CO₂ gas?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Ca(OH)<sub>2</sub> + CO2 ---> CaCO<sub>3</sub> + H<sub>2</sub>O</h2>
+                <h2>CaCO<sub>3</sub> is milky white in color and forms a colloid when dissolved in water. Hence, limewater turns milky when CO<sub>2</sub> is passed through it.</h2>
+            </div>
+            <div class="questions">
+                <h2>13.Why is aluminium used in the thermite process to extract metals like iron from their oxides, even though aluminium is more expensive?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: In thermite process, aluminium reduces iron(III) oxide to iron releasing very high temperatures locally — sufficient to produce molten iron — without an external heat source.</h2>
+            </div>
+            <div class="questions">
+                <h2>14.You have three metals X, Y, and Z. Metal X reacts with cold water vigorously, Y reacts only with steam, and Z does not react even with steam. Arrange them in order of reactivity and predict possible identities of X, Y, and Z.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: X = K, Na</h2>
+                <h2>Y = Mg, Zn, Fe</h2>
+                <h2>Z = Cu, Ag, Au</h2>
+            </div><div class="questions">
+                <h2>15.In metallurgy, why is roasting done for sulphide ores, but calcination is done for carbonate ores?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Roasting is done in presence of air and provides oxygen to metal sulphides, which is required to convert them to metallic oxide and SO2. Whereas, carbonate is changed to oxide by loss of CO2, which occurs in the absence of air and when heated to a high temperature. Hence, roasting is not done on carbonates.</h2>
+            </div>
+            <div class="questions">
+                <h2>16.Why is electrolysis necessary for the extraction of sodium, but not for iron?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Sodium is a very reactive metal; its oxide or chloride is so stable that carbon reduction is not feasible. Sodium is produced by electrolysis of molten NaCl because electric current forces reduction.</h2>
+            </div>
+            <div class="questions">
+                <h2>17.Why is zinc used for electroplating(galvanisation) of iron?</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Electroplating of iron uses a metal **more reactive** than iron so that it provides a layer of protection. Zinc corrodes preferentially and protects exposed iron even if coating is scratched.</h2>
+            </div>
+            <div class="questions">
+                <h2>18.A metal “M” reacts with dilute sulphuric acid to form salt MSO₄ and hydrogen gas. If M displaces zinc from ZnSO₄ solution, identify M.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: M - Ca, Fe, Mg</h2>
+            </div>
+            <div class="questions">
+                <h2>19.An ore sample is black in colour. On heating in air it gives off a gas that turns lime water milky. Identify the type of ore and the process involved.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: Carbonate ore.</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calcination</h2>
+            </div>
+            <div class="questions">
+                <h2>20.You have four samples: metal A, metal B and their oxides (A₂O and B₂O). Experiments show:</h2>
+                <ul id="qu">
+                    <li><h2>A displaces B from BSO₄ solution.</h2></li>
+                    <li><h2>A reacts vigorously with steam to give A₂O and H₂, but does not react with cold water.</h2></li>
+                    <li><h2>A₂O dissolves in both dilute HCl and in hot concentrated NaOH.</h2></li>
+                    <li><h2>B does not react with dilute HCl and gives a black oxide on heating in air.</h2></li>
+                </ul>
+                <h2>Identify likely metals A and B.</h2>
+            </div>
+            <div class="answer">
+                <h2>Answer: A - Zn</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B - Cu</h2>
+            </div>
+        </section>
+    </body>  
+</html>
