@@ -46,6 +46,42 @@
           </p>
       </div>     
     </section>
+    <section id="song">
+      <h2 id="song-name" class="anim">Song</h2>
+      <div class="song-player">
+        <audio controls id="song-aud">
+          <source src="./pics/song.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <h2 id="song_lyrics" class="anim" onclick="a();"><u>Click here to view lyrics</u></h2>
+    </section>
+    
+    <section class="Non-Metals">
+      <div class="anim">
+          <h1 id="nm">Non-metals</h1>
+          <div class="image-row">
+            <img src="./pics/sulphur.webp" alt="Sulfur">
+            <img src="./pics/carbon.jpg" alt="Carbon">
+            <img src="./pics/phosphorous.jpg" alt="Phosphorus">
+            <img src="./pics/oxygen.webp" alt="Oxygen">
+          </div>
+          <p class="info-text">
+            Non-metals are a group of elements that typically do not conduct heat or electricity and are generally not lustrous(except iodine). They are often brittle and cannot be malleable or ductile. Unlike metals, non-metals tend to gain electrons during chemical reactions and become electroneagtive.</span>
+          </p>
+      </div>    
+    </section>
+    <section id="Videos" style="background-color: hsl(192, 87%, 85%);">
+        <h2 id="Vid" class="anim">Videos</h2>
+        <div class="VideoHolder">
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
+        </div>
+    </section>
+
     <section id="comparison">
       <h2 id="p_t" class="anim" style="color: black;">Classification of everyday items</h2>
       <div class="wrap">
@@ -90,32 +126,6 @@
         </div>
       </div>
     </section>
-    <section class="Non-Metals">
-      <div class="anim">
-          <h1 id="nm">Non-metals</h1>
-          <div class="image-row">
-            <img src="./pics/sulphur.webp" alt="Sulfur">
-            <img src="./pics/carbon.jpg" alt="Carbon">
-            <img src="./pics/phosphorous.jpg" alt="Phosphorus">
-            <img src="./pics/oxygen.webp" alt="Oxygen">
-          </div>
-          <p class="info-text">
-            Non-metals are a group of elements that typically do not conduct heat or electricity and are generally not lustrous(except iodine). They are often brittle and cannot be malleable or ductile. Unlike metals, non-metals tend to gain electrons during chemical reactions and become electroneagtive.</span>
-          </p>
-      </div>    
-    </section>
-    <section id="Videos" style="background-color: hsl(192, 87%, 85%);">
-        <h2 id="Vid" class="anim">Videos</h2>
-        <div class="VideoHolder">
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-          <iframe class="frames" width="420" height="315" src="https://www.youtube.com/embed/V67eJZ5YFsQ"></iframe>
-        </div>
-    </section>
-
 
     <section id="periodic-table">   
       <h2 id="p_t" class="anim">The Periodic Table of Elements</h2>
@@ -123,7 +133,19 @@
     </section>
 
     <section id="Game">
-      <h2 id="g_t" class="anim">Periodic Pursuit, a game on metals & non-metals (INCOMPLETE)</h2>
+      <h2 id="g_t" class="anim">Periodic Pursuit</h2>
+      <iframe frameborder="0" id="game" allowtransparancy="true" data-src="https://itch.io/embed-upload/15187334?color=333333" src="https://dd45l.itch.io/periodic-pursuit" allowfullscreen="" width="1280" height="720"><a href="https://dd45l.itch.io/periodic-pursuit">Play Periodic Pursuit on itch.io</a></iframe>
+      <div id="cont">
+        <button id="loadIframeButton">Load Game</button>
+      </div>
+      <p id="gi">
+        Controls- W: jump<br>
+                  A: move left<br>
+                  D: move right<br>     
+                  <br> 
+        Collect ores and react with acids! Gain time to create historical high scores! Beware of substances you do not react with. All the best!
+        <br>
+      </p>
     </section>
 
     <footer>
